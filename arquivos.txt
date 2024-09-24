@@ -1,0 +1,5 @@
+arquivos.txt
+first.sh
+redirect.sh
+um.sh
+variaveis.sh
