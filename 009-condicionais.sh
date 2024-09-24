@@ -21,3 +21,18 @@ fi
 if [ -r "arquivos.txt" ]; then
   echo "Tem permissão de leitura."
 fi
+
+# -s Verifica se o arquivo não está vazio
+if [ -s "arquivos.txt" ]; then
+  echo "O arquivo não está vazio"
+fi
+
+# -O Verifica se o arquivo é de propriedade do usuário executando o script
+if [ -O "arquivos.txt" ]; then
+  echo "O arquivo é de propriedade do usuário"
+fi
+
+# -N verifica se o arquivo foi modificado desde a última leitura
+if [ -N "arquivos.txt" ]; then
+  echo "Foi modificado"
+fi

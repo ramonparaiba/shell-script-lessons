@@ -1,0 +1,8 @@
+#!/bin/bash
+
+origem="arquivos_setor"
+destino="backup"
+
+cp -r $origem $destino
+
+echo "Backup concluído com sucesso!"
